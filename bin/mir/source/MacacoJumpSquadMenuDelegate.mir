@@ -14,14 +14,14 @@ class MacacoJumpSquadMenuDelegate extends WatchUi.MenuInputDelegate{
     <init> {
     }
     [ @file = "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadMenuDelegate.mc"; @line = 6; @position = 8; ]
-    var parentDelegate as MacacoJumpSquadDelegate;
+    var parentDelegate as KitesurfViewDelegate;
     [ @file = "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadMenuDelegate.mc"; @line = 8; ]
-    function initialize(parent as MacacoJumpSquadDelegate) as Void {
-_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadMenuDelegate_mc_8_59_start:
+    function initialize(parent as KitesurfViewDelegate) as Void {
+_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadMenuDelegate_mc_8_56_start:
 [ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadMenuDelegate.mc" 9 8 ]
         %tmp.2 = lgetv %parent;
         putv self :parentDelegate %tmp.2;
-_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadMenuDelegate_mc_8_59_stop:
+_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadMenuDelegate_mc_8_56_stop:
     }
     [ @file = "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadMenuDelegate.mc"; @line = 12; ]
     function onMenuItem(item as Symbol) as Void {

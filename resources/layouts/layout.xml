@@ -10,9 +10,13 @@
     </layout>
 
      <layout id="KitesurfLayout">
-        <label id="HeartRateLabel" text="Heart Rate" x="50%" y="10" font="Gfx.FONT_LARGE" color="Gfx.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_CENTER"/>
-        <label id="DistanceLabel" text="Distance" x="25%" y="35%" font="Gfx.FONT_MEDIUM" color="Gfx.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_CENTER"/>
-        <label id="HighestJumpLabel" text="SR Jump" x="75%" y="35%" font="Gfx.FONT_MEDIUM" color="Gfx.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_CENTER"/>
-        <label id="TimeOfDayLabel" text="Time" x="50%" y="70%" font="Gfx.FONT_LARGE" color="Gfx.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_CENTER"/>
+        <label id="HeartRateLabel" text="Heart Rate" x="50%" y="10" font="Gfx.FONT_SMALL" color="Gfx.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER"/>
+        <label id="heart_rate" text="--" x="50%" y="30" font="Gfx.FONT_SMALL" color="Gfx.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER"/>
+        <label id="DistanceLabel" text="Distance" x="25%" y="35%" font="Gfx.FONT_SMALL" color="Gfx.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER"/>
+        <label id="distance" text="0.00" x="25%" y="45%" font="Gfx.FONT_SMALL" color="Gfx.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER"/>
+        <label id="HighestJumpLabel" text="SR Jump" x="75%" y="35%" font="Gfx.FONT_SMALL" color="Gfx.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER"/>
+        <label id="highest_jump" text="0.00" x="75%" y="45%" font="Gfx.FONT_SMALL" color="Gfx.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER"/>
+        <label id="TimeOfDayLabel" text="Time" x="50%" y="70%" font="Gfx.FONT_SMALL" color="Gfx.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER"/>
+        <label id="time" text="plc" x="50%" y="80%" font="Gfx.FONT_SMALL" color="Gfx.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER"/>
     </layout>
 </layouts>

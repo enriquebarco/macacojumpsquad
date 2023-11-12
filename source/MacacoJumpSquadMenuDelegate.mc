@@ -3,9 +3,9 @@ import Toybox.System;
 import Toybox.WatchUi;
 
 class MacacoJumpSquadMenuDelegate extends WatchUi.MenuInputDelegate {
-    var parentDelegate as MacacoJumpSquadDelegate;
+    var parentDelegate as KitesurfViewDelegate;
 
-    function initialize(parent as MacacoJumpSquadDelegate) {
+    function initialize(parent as KitesurfViewDelegate) {
         parentDelegate = parent;
     }
 
