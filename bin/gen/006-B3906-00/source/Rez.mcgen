@@ -6,6 +6,8 @@ using Toybox.Graphics as Gfx;
 
 module Rez {
     module Drawables {
+        (:initialized) var warningIcon as Symbol;
+        (:initialized) var rightTop as Symbol;
         (:initialized) var id_monkey as Symbol;
         (:initialized) var LauncherIcon as Symbol;
     } // Drawables
@@ -18,12 +20,28 @@ module Rez {
 
     module Layouts {
         function MainLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_text_1648643745 = new WatchUi.Text({:color=>Graphics.COLOR_WHITE, :locX=>(260 * 0.5), :locY=>5, :text=>$.Rez.Strings.prompt, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_MEDIUM});
+            var rez_cmp_local_text_9723165521 = new WatchUi.Text({:color=>Graphics.COLOR_WHITE, :locX=>(260 * 0.5), :locY=>30, :text=>$.Rez.Strings.prompt, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_MEDIUM});
 
-            var rez_cmp_local_bitmap_id_monkey = new WatchUi.Bitmap({:identifier=>"id_monkey", :rezId=>$.Rez.Drawables.id_monkey, :locX=>WatchUi.LAYOUT_HALIGN_CENTER, :locY=>30});
+            var rez_cmp_local_text_1868477520 = new WatchUi.Text({:color=>Graphics.COLOR_WHITE, :locX=>(260 * 0.5), :locY=>60, :text=>$.Rez.Strings.prompt2, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_MEDIUM});
+
+            var rez_cmp_local_bitmap_rightTop = new WatchUi.Bitmap({:identifier=>"rightTop", :rezId=>$.Rez.Drawables.rightTop, :locX=>225, :locY=>48});
+
+            var rez_cmp_local_bitmap_id_monkey = new WatchUi.Bitmap({:identifier=>"id_monkey", :rezId=>$.Rez.Drawables.id_monkey, :locX=>WatchUi.LAYOUT_HALIGN_CENTER, :locY=>110});
             rez_cmp_local_bitmap_id_monkey.setLocation(((260 - rez_cmp_local_bitmap_id_monkey.width) * 0.5), rez_cmp_local_bitmap_id_monkey.locY);
 
-            return [rez_cmp_local_text_1648643745, rez_cmp_local_bitmap_id_monkey] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_text_9723165521, rez_cmp_local_text_1868477520, rez_cmp_local_bitmap_rightTop, rez_cmp_local_bitmap_id_monkey] as Array<WatchUi.Drawable>;
+        }
+
+        function KitesurfLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            var rez_cmp_local_text_HeartRateLabel = new WatchUi.Text({:identifier=>"HeartRateLabel", :color=>Gfx.COLOR_BLACK, :locX=>(260 * (50 / 100.0)), :locY=>10, :text=>"Heart Rate", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_LARGE});
+
+            var rez_cmp_local_text_DistanceLabel = new WatchUi.Text({:identifier=>"DistanceLabel", :color=>Gfx.COLOR_BLACK, :locX=>(260 * (25 / 100.0)), :locY=>(260 * (35 / 100.0)), :text=>"Distance", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_MEDIUM});
+
+            var rez_cmp_local_text_HighestJumpLabel = new WatchUi.Text({:identifier=>"HighestJumpLabel", :color=>Gfx.COLOR_BLACK, :locX=>(260 * (75 / 100.0)), :locY=>(260 * (35 / 100.0)), :text=>"SR Jump", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_MEDIUM});
+
+            var rez_cmp_local_text_TimeOfDayLabel = new WatchUi.Text({:identifier=>"TimeOfDayLabel", :color=>Gfx.COLOR_BLACK, :locX=>(260 * (50 / 100.0)), :locY=>(260 * (70 / 100.0)), :text=>"Time", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_LARGE});
+
+            return [rez_cmp_local_text_HeartRateLabel, rez_cmp_local_text_DistanceLabel, rez_cmp_local_text_HighestJumpLabel, rez_cmp_local_text_TimeOfDayLabel] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 
@@ -31,17 +49,20 @@ module Rez {
         class MainMenu extends WatchUi.Menu {
             function initialize() {
                 Menu.initialize();
-                addItem((WatchUi.loadResource($.Rez.Strings.menu_label_1) as String), :item_1);
-                addItem((WatchUi.loadResource($.Rez.Strings.menu_label_2) as String), :item_2);
+                addItem((WatchUi.loadResource($.Rez.Strings.menu_label_1) as String), :resume);
+                addItem((WatchUi.loadResource($.Rez.Strings.menu_label_2) as String), :save);
+                addItem((WatchUi.loadResource($.Rez.Strings.menu_label_3) as String), :discard);
             }
         }
     } // Menus
 
     module Strings {
+        (:initialized) var menu_label_3 as Symbol;
         (:initialized) var menu_label_1 as Symbol;
         (:initialized) var menu_label_2 as Symbol;
         (:initialized) var prompt as Symbol;
         (:initialized) var AppName as Symbol;
+        (:initialized) var prompt2 as Symbol;
     } // Strings
 
     module Styles {

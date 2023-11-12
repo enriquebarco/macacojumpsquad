@@ -3,17 +3,27 @@ import Toybox.System;
 import Toybox.WatchUi;
 
 class MacacoJumpSquadMenuDelegate extends WatchUi.MenuInputDelegate {
+    var parentDelegate as MacacoJumpSquadDelegate;
 
-    function initialize() {
-        MenuInputDelegate.initialize();
+    function initialize(parent as MacacoJumpSquadDelegate) {
+        parentDelegate = parent;
     }
 
     function onMenuItem(item as Symbol) as Void {
-        if (item == :item_1) {
-            System.println("item 1");
-        } else if (item == :item_2) {
-            System.println("item 2");
+        switch (item) {
+            case :resume:
+                    System.println("Resuming activity...");
+                    parentDelegate.startActivity();
+                break;
+            case :save:
+                    System.println("Saving activity...");
+                    parentDelegate.saveActivity();
+                break;
+            case :discard:
+                    System.println("Discarding activity...");
+                    parentDelegate.discardActivity();
+                break;
         }
     }
-
 }
+

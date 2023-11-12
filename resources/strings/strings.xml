@@ -1,8 +1,10 @@
 <strings>
     <string id="AppName">MacacoJumpSquad</string>
 
-    <string id="prompt">MACACO SQUAD</string>
+    <string id="prompt">Macaco Kite</string>
+    <string id="prompt2">Squad</string>
 
-    <string id="menu_label_1">Item 1</string>
-    <string id="menu_label_2">Item 2</string>
+    <string id="menu_label_1">Resume</string>
+    <string id="menu_label_2">Save</string>
+    <string id="menu_label_3">Discard</string>
 </strings>
