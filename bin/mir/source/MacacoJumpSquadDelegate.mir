@@ -38,27 +38,18 @@ _home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDel
         invoke %tmp.4 %tmp.5(%tmp.10);
 [ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" 14 8 ]
         %tmp.11 = getm $.Toybox.Sensor;
-        %tmp.12 = getv function %tmp.11 :setEnabledSensors;
-        %tmp.13 = newa 1;
-        %tmp.14 = getm $.Toybox.Sensor;
-        %tmp.15 = getv %tmp.14 :SENSOR_CALORIES;
-        %tmp.16 = dup %tmp.13;
-        %tmp.17 = aputv %tmp.16 0 %tmp.15;
+        %tmp.12 = getv function %tmp.11 :enableSensorEvents;
+        %tmp.13 = self;
+        %tmp.14 = getv function %tmp.13 :method;
+        %tmp.16 = const :onSensor;
+        %tmp.17 = invoke %tmp.13 %tmp.14(%tmp.16);
         invoke %tmp.11 %tmp.12(%tmp.17);
-[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" 15 8 ]
-        %tmp.18 = getm $.Toybox.Sensor;
-        %tmp.19 = getv function %tmp.18 :enableSensorEvents;
-        %tmp.20 = self;
-        %tmp.21 = getv function %tmp.20 :method;
-        %tmp.23 = const :onSensor;
-        %tmp.24 = invoke %tmp.20 %tmp.21(%tmp.23);
-        invoke %tmp.18 %tmp.19(%tmp.24);
 _home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_11_26_stop:
     }
-    [ @file = "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc"; @line = 18; ]
+    [ @file = "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc"; @line = 17; ]
     function onSensor(sensorInfo as Sensor.Info) as Void {
-_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_18_57_start:
-[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" 19 4 ]
+_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_17_57_start:
+[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" 18 4 ]
         %tmp.2 = getv ? :System;
         %tmp.3 = getv function %tmp.2 :println;
         %tmp.4 = "Heart Rate: ";
@@ -66,31 +57,23 @@ _home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDel
         %tmp.6 = getv %tmp.5 :heartRate;
         %tmp.7 = add %tmp.4 %tmp.6;
         invoke %tmp.2 %tmp.3(%tmp.7);
-[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" 20 4 ]
-        %tmp.9 = getv ? :System;
-        %tmp.10 = getv function %tmp.9 :println;
-        %tmp.11 = "Calories: ";
-        %tmp.12 = lgetv %sensorInfo;
-        %tmp.13 = getv %tmp.12 :calories;
-        %tmp.14 = add %tmp.11 %tmp.13;
-        invoke %tmp.9 %tmp.10(%tmp.14);
-_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_18_57_stop:
+_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_17_57_stop:
     }
-    [ @file = "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc"; @line = 23; ]
+    [ @file = "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc"; @line = 21; ]
     function onSelect() as Boolean {
-_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_23_35_start:
-[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" 24 8 ]
-_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_24_8_if_stmt:
+_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_21_35_start:
+[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" 22 8 ]
+_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_22_8_if_stmt:
         %tmp.2 = getv ? :session;
-        bf %tmp.2 @_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_24_8_if_false;
-_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_24_8_if_true:
-_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_24_21_start:
-[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" 25 12 ]
+        bf %tmp.2 @_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_22_8_if_false;
+_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_22_8_if_true:
+_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_22_21_start:
+[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" 23 12 ]
         %tmp.4 = getv ? :System;
         %tmp.5 = getv function %tmp.4 :println;
         %tmp.6 = "Save, Delete, Continue Menu";
         invoke %tmp.4 %tmp.5(%tmp.6);
-[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" 26 12 ]
+[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" 24 12 ]
         %tmp.7 = getm $.Toybox.WatchUi;
         %tmp.8 = getv function %tmp.7 :pushView;
         %tmp.12 = getv ? :Rez;
@@ -103,30 +86,30 @@ _home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDel
         %tmp.21 = getm $.Toybox.WatchUi;
         %tmp.22 = getv %tmp.21 :SLIDE_UP;
         invoke %tmp.7 %tmp.8(%tmp.9, %tmp.15, %tmp.22);
-_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_24_21_stop:
-        goto @_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_24_8_if_end;
-_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_24_8_if_false:
-_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_28_15_start:
-[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" 29 12 ]
+_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_22_21_stop:
+        goto @_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_22_8_if_end;
+_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_22_8_if_false:
+_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_26_15_start:
+[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" 27 12 ]
         %tmp.23 = lgetv %self;
         %tmp.24 = getv function %tmp.23 :startActivity;
         invoke %tmp.23 %tmp.24();
-_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_28_15_stop:
-_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_24_8_if_end:
-[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" 32 8 ]
+_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_26_15_stop:
+_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_22_8_if_end:
+[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" 30 8 ]
         %tmp.25 = false;
         ret %tmp.25;
-_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_23_35_stop:
+_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_21_35_stop:
     }
-    [ @file = "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc"; @line = 35; ]
+    [ @file = "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc"; @line = 33; ]
     function startActivity() {
-_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_35_29_start:
-[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" 37 8 ]
+_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_33_29_start:
+[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" 35 8 ]
         %tmp.2 = getv ? :System;
         %tmp.3 = getv function %tmp.2 :println;
         %tmp.4 = "Activity Started";
         invoke %tmp.2 %tmp.3(%tmp.4);
-[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" 40 8 ]
+[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" 38 8 ]
         %tmp.5 = getm $.Toybox.ActivityRecording;
         %tmp.6 = getv function %tmp.5 :createSession;
         %tmp.7 = newd 2;
@@ -141,65 +124,42 @@ _home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDel
         %tmp.19 = aputv %tmp.18 %tmp.14 %tmp.17;
         %tmp.20 = invoke %tmp.5 %tmp.6(%tmp.19);
         putv self :session %tmp.20;
-[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" 44 11 ]
+[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" 42 11 ]
         %tmp.22 = getv ? :session;
         %tmp.23 = getv function %tmp.22 :start;
         invoke %tmp.22 %tmp.23();
-[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" 51 8 ]
+[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" 58 8 ]
         %tmp.25 = getv ? :session;
         %tmp.26 = getv function %tmp.25 :start;
         invoke %tmp.25 %tmp.26();
-_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_35_29_stop:
+_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_33_29_stop:
     }
-    [ @file = "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc"; @line = 58; ]
-    function stopActivity() {
-_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_58_28_start:
-[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" 59 8 ]
-_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_59_8_if_stmt:
+    [ @file = "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc"; @line = 64; ]
+    function resumeActivity() {
+_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_64_30_start:
+[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" 65 8 ]
+_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_65_8_if_stmt:
         %tmp.2 = getv ? :session;
-        bf %tmp.2 @_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_59_8_if_end;
-_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_59_8_if_true:
-_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_59_21_start:
-[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" 60 12 ]
+        bf %tmp.2 @_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_65_8_if_end;
+_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_65_8_if_true:
+_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_65_21_start:
+[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" 66 12 ]
         %tmp.4 = getv ? :System;
         %tmp.5 = getv function %tmp.4 :println;
-        %tmp.6 = "Session stopped";
+        %tmp.6 = "Session resuming";
         invoke %tmp.4 %tmp.5(%tmp.6);
-[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" 61 12 ]
+[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" 67 8 ]
         %tmp.8 = getv ? :session;
-        %tmp.9 = getv function %tmp.8 :stop;
+        %tmp.9 = getv function %tmp.8 :start;
         invoke %tmp.8 %tmp.9();
-_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_59_21_stop:
-        goto @_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_59_8_if_end;
-_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_59_8_if_end:
-_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_58_28_stop:
-    }
-    [ @file = "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc"; @line = 65; ]
-    function saveActivity() {
-_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_65_28_start:
-[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" 66 8 ]
-_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_66_8_if_stmt:
-        %tmp.2 = getv ? :session;
-        bf %tmp.2 @_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_66_8_if_end;
-_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_66_8_if_true:
-_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_66_21_start:
-[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" 67 12 ]
-        %tmp.4 = getv ? :System;
-        %tmp.5 = getv function %tmp.4 :println;
-        %tmp.6 = "Session saved";
-        invoke %tmp.4 %tmp.5(%tmp.6);
-[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" 68 12 ]
-        %tmp.8 = getv ? :session;
-        %tmp.9 = getv function %tmp.8 :save;
-        invoke %tmp.8 %tmp.9();
-_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_66_21_stop:
-        goto @_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_66_8_if_end;
-_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_66_8_if_end:
-_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_65_28_stop:
+_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_65_21_stop:
+        goto @_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_65_8_if_end;
+_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_65_8_if_end:
+_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_64_30_stop:
     }
     [ @file = "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc"; @line = 72; ]
-    function discardActivity() {
-_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_72_31_start:
+    function stopActivity() {
+_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_72_28_start:
 [ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" 73 8 ]
 _home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_73_8_if_stmt:
         %tmp.2 = getv ? :session;
@@ -209,16 +169,62 @@ _home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDel
 [ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" 74 12 ]
         %tmp.4 = getv ? :System;
         %tmp.5 = getv function %tmp.4 :println;
-        %tmp.6 = "Session discarded";
+        %tmp.6 = "Session stopped";
         invoke %tmp.4 %tmp.5(%tmp.6);
 [ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" 75 12 ]
         %tmp.8 = getv ? :session;
-        %tmp.9 = getv function %tmp.8 :discard;
+        %tmp.9 = getv function %tmp.8 :stop;
         invoke %tmp.8 %tmp.9();
 _home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_73_21_stop:
         goto @_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_73_8_if_end;
 _home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_73_8_if_end:
-_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_72_31_stop:
+_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_72_28_stop:
+    }
+    [ @file = "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc"; @line = 79; ]
+    function saveActivity() {
+_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_79_28_start:
+[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" 80 8 ]
+_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_80_8_if_stmt:
+        %tmp.2 = getv ? :session;
+        bf %tmp.2 @_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_80_8_if_end;
+_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_80_8_if_true:
+_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_80_21_start:
+[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" 81 12 ]
+        %tmp.4 = getv ? :System;
+        %tmp.5 = getv function %tmp.4 :println;
+        %tmp.6 = "Session saved";
+        invoke %tmp.4 %tmp.5(%tmp.6);
+[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" 82 12 ]
+        %tmp.8 = getv ? :session;
+        %tmp.9 = getv function %tmp.8 :save;
+        invoke %tmp.8 %tmp.9();
+_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_80_21_stop:
+        goto @_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_80_8_if_end;
+_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_80_8_if_end:
+_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_79_28_stop:
+    }
+    [ @file = "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc"; @line = 86; ]
+    function discardActivity() {
+_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_86_31_start:
+[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" 87 8 ]
+_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_87_8_if_stmt:
+        %tmp.2 = getv ? :session;
+        bf %tmp.2 @_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_87_8_if_end;
+_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_87_8_if_true:
+_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_87_21_start:
+[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" 88 12 ]
+        %tmp.4 = getv ? :System;
+        %tmp.5 = getv function %tmp.4 :println;
+        %tmp.6 = "Session discarded";
+        invoke %tmp.4 %tmp.5(%tmp.6);
+[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" 89 12 ]
+        %tmp.8 = getv ? :session;
+        %tmp.9 = getv function %tmp.8 :discard;
+        invoke %tmp.8 %tmp.9();
+_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_87_21_stop:
+        goto @_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_87_8_if_end;
+_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_87_8_if_end:
+_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadDelegate_mc_86_31_stop:
     }
 }
 [ @file = "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc"; @line = 1; ]

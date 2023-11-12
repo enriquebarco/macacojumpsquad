@@ -44,54 +44,58 @@
         <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadMenuDelegate.mc" id="21" lineNum="8" parent="globals/MacacoJumpSquadMenuDelegate" pc="268436061" symbol="initialize"/>
         <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadMenuDelegate.mc" id="21" lineNum="9" parent="globals/MacacoJumpSquadMenuDelegate" pc="268436063" symbol="initialize"/>
         <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" id="22" lineNum="7" parent="globals/MacacoJumpSquadDelegate" pc="268436074" symbol="&lt;init&gt;"/>
-        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" id="23" lineNum="70" parent="globals/MacacoJumpSquadDelegate" pc="268436093" symbol="discardActivity"/>
-        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" id="23" lineNum="71" parent="globals/MacacoJumpSquadDelegate" pc="268436095" symbol="discardActivity"/>
-        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" id="23" lineNum="72" parent="globals/MacacoJumpSquadDelegate" pc="268436106" symbol="discardActivity"/>
-        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" id="23" lineNum="73" parent="globals/MacacoJumpSquadDelegate" pc="268436129" symbol="discardActivity"/>
-        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" id="24" lineNum="63" parent="globals/MacacoJumpSquadDelegate" pc="268436151" symbol="saveActivity"/>
-        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" id="24" lineNum="64" parent="globals/MacacoJumpSquadDelegate" pc="268436153" symbol="saveActivity"/>
-        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" id="24" lineNum="65" parent="globals/MacacoJumpSquadDelegate" pc="268436164" symbol="saveActivity"/>
-        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" id="24" lineNum="66" parent="globals/MacacoJumpSquadDelegate" pc="268436187" symbol="saveActivity"/>
+        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" id="23" lineNum="86" parent="globals/MacacoJumpSquadDelegate" pc="268436093" symbol="discardActivity"/>
+        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" id="23" lineNum="87" parent="globals/MacacoJumpSquadDelegate" pc="268436095" symbol="discardActivity"/>
+        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" id="23" lineNum="88" parent="globals/MacacoJumpSquadDelegate" pc="268436106" symbol="discardActivity"/>
+        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" id="23" lineNum="89" parent="globals/MacacoJumpSquadDelegate" pc="268436129" symbol="discardActivity"/>
+        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" id="24" lineNum="79" parent="globals/MacacoJumpSquadDelegate" pc="268436151" symbol="saveActivity"/>
+        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" id="24" lineNum="80" parent="globals/MacacoJumpSquadDelegate" pc="268436153" symbol="saveActivity"/>
+        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" id="24" lineNum="81" parent="globals/MacacoJumpSquadDelegate" pc="268436164" symbol="saveActivity"/>
+        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" id="24" lineNum="82" parent="globals/MacacoJumpSquadDelegate" pc="268436187" symbol="saveActivity"/>
         <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" id="25" lineNum="11" parent="globals/MacacoJumpSquadDelegate" pc="268436209" symbol="initialize"/>
         <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" id="25" lineNum="12" parent="globals/MacacoJumpSquadDelegate" pc="268436211" symbol="initialize"/>
         <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" id="25" lineNum="13" parent="globals/MacacoJumpSquadDelegate" pc="268436229" symbol="initialize"/>
         <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" id="25" lineNum="14" parent="globals/MacacoJumpSquadDelegate" pc="268436264" symbol="initialize"/>
         <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" id="26" lineNum="17" parent="globals/MacacoJumpSquadDelegate" pc="268436297" symbol="onSensor"/>
         <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" id="26" lineNum="18" parent="globals/MacacoJumpSquadDelegate" pc="268436299" symbol="onSensor"/>
-        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" id="27" lineNum="56" parent="globals/MacacoJumpSquadDelegate" pc="268436332" symbol="stopActivity"/>
-        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" id="27" lineNum="57" parent="globals/MacacoJumpSquadDelegate" pc="268436334" symbol="stopActivity"/>
-        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" id="27" lineNum="58" parent="globals/MacacoJumpSquadDelegate" pc="268436345" symbol="stopActivity"/>
-        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" id="27" lineNum="59" parent="globals/MacacoJumpSquadDelegate" pc="268436368" symbol="stopActivity"/>
+        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" id="27" lineNum="72" parent="globals/MacacoJumpSquadDelegate" pc="268436332" symbol="stopActivity"/>
+        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" id="27" lineNum="73" parent="globals/MacacoJumpSquadDelegate" pc="268436334" symbol="stopActivity"/>
+        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" id="27" lineNum="74" parent="globals/MacacoJumpSquadDelegate" pc="268436345" symbol="stopActivity"/>
+        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" id="27" lineNum="75" parent="globals/MacacoJumpSquadDelegate" pc="268436368" symbol="stopActivity"/>
         <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" id="28" lineNum="33" parent="globals/MacacoJumpSquadDelegate" pc="268436390" symbol="startActivity"/>
         <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" id="28" lineNum="35" parent="globals/MacacoJumpSquadDelegate" pc="268436392" symbol="startActivity"/>
         <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" id="28" lineNum="38" parent="globals/MacacoJumpSquadDelegate" pc="268436415" symbol="startActivity"/>
         <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" id="28" lineNum="42" parent="globals/MacacoJumpSquadDelegate" pc="268436470" symbol="startActivity"/>
-        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" id="28" lineNum="49" parent="globals/MacacoJumpSquadDelegate" pc="268436488" symbol="startActivity"/>
+        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" id="28" lineNum="58" parent="globals/MacacoJumpSquadDelegate" pc="268436488" symbol="startActivity"/>
         <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" id="29" lineNum="21" parent="globals/MacacoJumpSquadDelegate" pc="268436507" symbol="onSelect"/>
         <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" id="29" lineNum="22" parent="globals/MacacoJumpSquadDelegate" pc="268436509" symbol="onSelect"/>
         <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" id="29" lineNum="23" parent="globals/MacacoJumpSquadDelegate" pc="268436520" symbol="onSelect"/>
         <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" id="29" lineNum="24" parent="globals/MacacoJumpSquadDelegate" pc="268436543" symbol="onSelect"/>
         <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" id="29" lineNum="27" parent="globals/MacacoJumpSquadDelegate" pc="268436633" symbol="onSelect"/>
         <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" id="29" lineNum="30" parent="globals/MacacoJumpSquadDelegate" pc="268436645" symbol="onSelect"/>
-        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/bin/gen/006-B3906-00/source/Rez.mcgen" id="30" lineNum="35" parent="globals/Rez/Layouts" pc="268436648" symbol="KitesurfLayout"/>
-        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/bin/gen/006-B3906-00/source/Rez.mcgen" id="30" lineNum="36" parent="globals/Rez/Layouts" pc="268436660" symbol="KitesurfLayout"/>
-        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/bin/gen/006-B3906-00/source/Rez.mcgen" id="30" lineNum="38" parent="globals/Rez/Layouts" pc="268436785" symbol="KitesurfLayout"/>
-        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/bin/gen/006-B3906-00/source/Rez.mcgen" id="30" lineNum="40" parent="globals/Rez/Layouts" pc="268436910" symbol="KitesurfLayout"/>
-        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/bin/gen/006-B3906-00/source/Rez.mcgen" id="30" lineNum="42" parent="globals/Rez/Layouts" pc="268437035" symbol="KitesurfLayout"/>
-        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/bin/gen/006-B3906-00/source/Rez.mcgen" id="30" lineNum="44" parent="globals/Rez/Layouts" pc="268437160" symbol="KitesurfLayout"/>
-        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/bin/gen/006-B3906-00/source/Rez.mcgen" id="31" lineNum="22" parent="globals/Rez/Layouts" pc="268437207" symbol="MainLayout"/>
-        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/bin/gen/006-B3906-00/source/Rez.mcgen" id="31" lineNum="23" parent="globals/Rez/Layouts" pc="268437219" symbol="MainLayout"/>
-        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/bin/gen/006-B3906-00/source/Rez.mcgen" id="31" lineNum="25" parent="globals/Rez/Layouts" pc="268437350" symbol="MainLayout"/>
-        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/bin/gen/006-B3906-00/source/Rez.mcgen" id="31" lineNum="27" parent="globals/Rez/Layouts" pc="268437481" symbol="MainLayout"/>
-        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/bin/gen/006-B3906-00/source/Rez.mcgen" id="31" lineNum="29" parent="globals/Rez/Layouts" pc="268437586" symbol="MainLayout"/>
-        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/bin/gen/006-B3906-00/source/Rez.mcgen" id="31" lineNum="30" parent="globals/Rez/Layouts" pc="268437691" symbol="MainLayout"/>
-        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/bin/gen/006-B3906-00/source/Rez.mcgen" id="31" lineNum="32" parent="globals/Rez/Layouts" pc="268437731" symbol="MainLayout"/>
-        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/bin/gen/006-B3906-00/source/Rez.mcgen" id="32" lineNum="49" parent="globals/Rez/Menus/MainMenu" pc="268437778" symbol="&lt;init&gt;"/>
-        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/bin/gen/006-B3906-00/source/Rez.mcgen" id="33" lineNum="50" parent="globals/Rez/Menus/MainMenu" pc="268437797" symbol="initialize"/>
-        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/bin/gen/006-B3906-00/source/Rez.mcgen" id="33" lineNum="51" parent="globals/Rez/Menus/MainMenu" pc="268437799" symbol="initialize"/>
-        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/bin/gen/006-B3906-00/source/Rez.mcgen" id="33" lineNum="52" parent="globals/Rez/Menus/MainMenu" pc="268437817" symbol="initialize"/>
-        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/bin/gen/006-B3906-00/source/Rez.mcgen" id="33" lineNum="53" parent="globals/Rez/Menus/MainMenu" pc="268437873" symbol="initialize"/>
-        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/bin/gen/006-B3906-00/source/Rez.mcgen" id="33" lineNum="54" parent="globals/Rez/Menus/MainMenu" pc="268437929" symbol="initialize"/>
+        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" id="30" lineNum="64" parent="globals/MacacoJumpSquadDelegate" pc="268436648" symbol="resumeActivity"/>
+        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" id="30" lineNum="65" parent="globals/MacacoJumpSquadDelegate" pc="268436650" symbol="resumeActivity"/>
+        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" id="30" lineNum="66" parent="globals/MacacoJumpSquadDelegate" pc="268436661" symbol="resumeActivity"/>
+        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadDelegate.mc" id="30" lineNum="67" parent="globals/MacacoJumpSquadDelegate" pc="268436684" symbol="resumeActivity"/>
+        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/bin/gen/006-B3906-00/source/Rez.mcgen" id="31" lineNum="35" parent="globals/Rez/Layouts" pc="268436706" symbol="KitesurfLayout"/>
+        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/bin/gen/006-B3906-00/source/Rez.mcgen" id="31" lineNum="36" parent="globals/Rez/Layouts" pc="268436718" symbol="KitesurfLayout"/>
+        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/bin/gen/006-B3906-00/source/Rez.mcgen" id="31" lineNum="38" parent="globals/Rez/Layouts" pc="268436843" symbol="KitesurfLayout"/>
+        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/bin/gen/006-B3906-00/source/Rez.mcgen" id="31" lineNum="40" parent="globals/Rez/Layouts" pc="268436968" symbol="KitesurfLayout"/>
+        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/bin/gen/006-B3906-00/source/Rez.mcgen" id="31" lineNum="42" parent="globals/Rez/Layouts" pc="268437093" symbol="KitesurfLayout"/>
+        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/bin/gen/006-B3906-00/source/Rez.mcgen" id="31" lineNum="44" parent="globals/Rez/Layouts" pc="268437218" symbol="KitesurfLayout"/>
+        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/bin/gen/006-B3906-00/source/Rez.mcgen" id="32" lineNum="22" parent="globals/Rez/Layouts" pc="268437265" symbol="MainLayout"/>
+        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/bin/gen/006-B3906-00/source/Rez.mcgen" id="32" lineNum="23" parent="globals/Rez/Layouts" pc="268437277" symbol="MainLayout"/>
+        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/bin/gen/006-B3906-00/source/Rez.mcgen" id="32" lineNum="25" parent="globals/Rez/Layouts" pc="268437408" symbol="MainLayout"/>
+        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/bin/gen/006-B3906-00/source/Rez.mcgen" id="32" lineNum="27" parent="globals/Rez/Layouts" pc="268437539" symbol="MainLayout"/>
+        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/bin/gen/006-B3906-00/source/Rez.mcgen" id="32" lineNum="29" parent="globals/Rez/Layouts" pc="268437644" symbol="MainLayout"/>
+        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/bin/gen/006-B3906-00/source/Rez.mcgen" id="32" lineNum="30" parent="globals/Rez/Layouts" pc="268437749" symbol="MainLayout"/>
+        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/bin/gen/006-B3906-00/source/Rez.mcgen" id="32" lineNum="32" parent="globals/Rez/Layouts" pc="268437789" symbol="MainLayout"/>
+        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/bin/gen/006-B3906-00/source/Rez.mcgen" id="33" lineNum="49" parent="globals/Rez/Menus/MainMenu" pc="268437836" symbol="&lt;init&gt;"/>
+        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/bin/gen/006-B3906-00/source/Rez.mcgen" id="34" lineNum="50" parent="globals/Rez/Menus/MainMenu" pc="268437855" symbol="initialize"/>
+        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/bin/gen/006-B3906-00/source/Rez.mcgen" id="34" lineNum="51" parent="globals/Rez/Menus/MainMenu" pc="268437857" symbol="initialize"/>
+        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/bin/gen/006-B3906-00/source/Rez.mcgen" id="34" lineNum="52" parent="globals/Rez/Menus/MainMenu" pc="268437875" symbol="initialize"/>
+        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/bin/gen/006-B3906-00/source/Rez.mcgen" id="34" lineNum="53" parent="globals/Rez/Menus/MainMenu" pc="268437931" symbol="initialize"/>
+        <entry filename="/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/bin/gen/006-B3906-00/source/Rez.mcgen" id="34" lineNum="54" parent="globals/Rez/Menus/MainMenu" pc="268437987" symbol="initialize"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
@@ -99,21 +103,21 @@
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
         <entry id="7" module="true" symbol="globals/Rez/Menus"/>
         <entry id="8388638" module="true" symbol="ActivityRecording"/>
-        <entry field="true" id="26" symbol="warningIcon"/>
-        <entry id="28" method="true" symbol="MainLayout"/>
+        <entry field="true" id="27" symbol="warningIcon"/>
+        <entry id="29" method="true" symbol="MainLayout"/>
         <entry field="true" id="8388890" symbol="sport"/>
-        <entry field="true" id="35" symbol="prompt2"/>
+        <entry field="true" id="36" symbol="prompt2"/>
         <entry id="8391787" symbol="resume"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-        <entry field="true" id="30" symbol="AppName"/>
+        <entry field="true" id="31" symbol="AppName"/>
         <entry id="8" module="true" symbol="globals/Rez/Strings"/>
         <entry id="8388772" module="true" object="true" symbol="Fonts"/>
         <entry id="8389345" symbol="rezId"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
         <entry id="12" object="true" symbol="MacacoJumpSquadMenuDelegate"/>
         <entry id="2" module="true" symbol="globals/Rez"/>
-        <entry field="true" id="34" symbol="prompt"/>
-        <entry field="true" id="24" symbol="id_monkey"/>
+        <entry field="true" id="35" symbol="prompt"/>
+        <entry field="true" id="25" symbol="id_monkey"/>
         <entry id="8388883" method="true" symbol="discard"/>
         <entry id="8389124" method="true" symbol="onUpdate"/>
         <entry field="true" id="8389065" symbol="locY"/>
@@ -122,7 +126,7 @@
         <entry id="8389348" symbol="font"/>
         <entry id="15" module="true" symbol="Menus"/>
         <entry id="8389275" method="true" symbol="getApp"/>
-        <entry field="true" id="25" symbol="rightTop"/>
+        <entry field="true" id="26" symbol="rightTop"/>
         <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
         <entry id="8389122" method="true" symbol="onLayout"/>
         <entry field="true" id="8389063" symbol="identifier"/>
@@ -130,10 +134,10 @@
         <entry id="9" object="true" symbol="KitesurfView"/>
         <entry id="8388882" method="true" symbol="save"/>
         <entry id="5" module="true" symbol="globals/Rez/JsonData"/>
-        <entry id="21" method="true" symbol="startActivity"/>
+        <entry id="22" method="true" symbol="startActivity"/>
         <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
-        <entry id="29" object="true" symbol="MainMenu"/>
-        <entry id="22" method="true" symbol="stopActivity"/>
+        <entry id="30" object="true" symbol="MainMenu"/>
+        <entry id="23" method="true" symbol="stopActivity"/>
         <entry id="8388644" module="true" symbol="System"/>
         <entry id="8389619" method="true" symbol="onSelect"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
@@ -143,7 +147,7 @@
         <entry id="10" object="true" symbol="MacacoJumpSquadApp"/>
         <entry id="11" object="true" symbol="MacacoJumpSquadDelegate"/>
         <entry id="8390088" module="true" object="true" symbol="JsonData"/>
-        <entry field="true" id="23" symbol="LauncherIcon"/>
+        <entry field="true" id="24" symbol="LauncherIcon"/>
         <entry id="8388610" symbol="statics"/>
         <entry id="17" method="true" symbol="discardActivity"/>
         <entry id="8389123" method="true" symbol="onShow"/>
@@ -155,20 +159,21 @@
         <entry id="8389279" method="true" symbol="onStart"/>
         <entry id="8389780" module="true" symbol="FitContributor"/>
         <entry field="true" id="8388892" symbol="name"/>
-        <entry id="27" method="true" symbol="KitesurfLayout"/>
+        <entry id="28" method="true" symbol="KitesurfLayout"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
         <entry id="8389281" method="true" symbol="onStop"/>
         <entry id="8389109" method="true" symbol="onMenuItem"/>
         <entry id="8389347" symbol="color"/>
-        <entry id="19" method="true" symbol="saveActivity"/>
+        <entry id="20" method="true" symbol="saveActivity"/>
         <entry id="14" module="true" symbol="Layouts"/>
+        <entry id="19" method="true" symbol="resumeActivity"/>
         <entry id="4" module="true" symbol="globals/Rez/Fonts"/>
         <entry id="8389125" method="true" symbol="onHide"/>
-        <entry field="true" id="20" symbol="session"/>
+        <entry field="true" id="21" symbol="session"/>
         <entry id="8388635" module="true" symbol="Application"/>
-        <entry field="true" id="33" symbol="menu_label_3"/>
-        <entry field="true" id="32" symbol="menu_label_2"/>
-        <entry field="true" id="31" symbol="menu_label_1"/>
+        <entry field="true" id="34" symbol="menu_label_3"/>
+        <entry field="true" id="33" symbol="menu_label_2"/>
+        <entry field="true" id="32" symbol="menu_label_1"/>
     </symbolTable>
     <localVars>
         <entry arg="true" endPc="268435671" name="dc" stackId="1" startPc="268435628"/>
@@ -178,16 +183,16 @@
         <entry arg="true" endPc="268436060" name="item" stackId="1" startPc="268435866"/>
         <entry arg="true" endPc="268436073" name="parent" stackId="1" startPc="268436061"/>
         <entry arg="true" endPc="268436331" name="sensorInfo" stackId="1" startPc="268436297"/>
-        <entry arg="true" endPc="268437206" name="dc" stackId="1" startPc="268436648"/>
-        <entry endPc="268437206" name="rez_cmp_local_text_HeartRateLabel" stackId="2" startPc="268436660"/>
-        <entry endPc="268437206" name="rez_cmp_local_text_DistanceLabel" stackId="3" startPc="268436660"/>
-        <entry endPc="268437206" name="rez_cmp_local_text_HighestJumpLabel" stackId="4" startPc="268436660"/>
-        <entry endPc="268437206" name="rez_cmp_local_text_TimeOfDayLabel" stackId="5" startPc="268436660"/>
-        <entry arg="true" endPc="268437777" name="dc" stackId="1" startPc="268437207"/>
-        <entry endPc="268437777" name="rez_cmp_local_text_2019809352" stackId="2" startPc="268437219"/>
-        <entry endPc="268437777" name="rez_cmp_local_text_7517119111" stackId="3" startPc="268437219"/>
-        <entry endPc="268437777" name="rez_cmp_local_bitmap_rightTop" stackId="4" startPc="268437219"/>
-        <entry endPc="268437777" name="rez_cmp_local_bitmap_id_monkey" stackId="5" startPc="268437219"/>
+        <entry arg="true" endPc="268437264" name="dc" stackId="1" startPc="268436706"/>
+        <entry endPc="268437264" name="rez_cmp_local_text_HeartRateLabel" stackId="2" startPc="268436718"/>
+        <entry endPc="268437264" name="rez_cmp_local_text_DistanceLabel" stackId="3" startPc="268436718"/>
+        <entry endPc="268437264" name="rez_cmp_local_text_HighestJumpLabel" stackId="4" startPc="268436718"/>
+        <entry endPc="268437264" name="rez_cmp_local_text_TimeOfDayLabel" stackId="5" startPc="268436718"/>
+        <entry arg="true" endPc="268437835" name="dc" stackId="1" startPc="268437265"/>
+        <entry endPc="268437835" name="rez_cmp_local_text_1749914913" stackId="2" startPc="268437277"/>
+        <entry endPc="268437835" name="rez_cmp_local_text_1037233980" stackId="3" startPc="268437277"/>
+        <entry endPc="268437835" name="rez_cmp_local_bitmap_rightTop" stackId="4" startPc="268437277"/>
+        <entry endPc="268437835" name="rez_cmp_local_bitmap_id_monkey" stackId="5" startPc="268437277"/>
     </localVars>
     <annotations>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_3"/>
@@ -209,13 +214,13 @@
         <dataEntry label="globals/Rez" offset="403" parentId="globals" symbolId="Rez" type="module"/>
         <dataEntry label="globals/MacacoJumpSquadMenuDelegate" offset="482" parentId="globals" symbolId="MacacoJumpSquadMenuDelegate" type="class"/>
         <dataEntry label="globals/MacacoJumpSquadDelegate" offset="545" parentId="globals" symbolId="MacacoJumpSquadDelegate" type="class"/>
-        <dataEntry label="globals/Rez/Drawables" offset="648" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry label="globals/Rez/Layouts" offset="711" parentId="Rez" symbolId="Layouts" type="module"/>
-        <dataEntry label="globals/Rez/Menus" offset="758" parentId="Rez" symbolId="Menus" type="module"/>
-        <dataEntry label="globals/Rez/Fonts" offset="797" parentId="Rez" symbolId="Fonts" type="module"/>
-        <dataEntry label="globals/Rez/Strings" offset="828" parentId="Rez" symbolId="Strings" type="module"/>
-        <dataEntry label="globals/Rez/JsonData" offset="907" parentId="Rez" symbolId="JsonData" type="module"/>
-        <dataEntry label="globals/Rez/Menus/MainMenu" offset="938" parentId="Menus" symbolId="MainMenu" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="656" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="719" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="766" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Fonts" offset="805" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="836" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/JsonData" offset="915" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry label="globals/Rez/Menus/MainMenu" offset="946" parentId="Menus" symbolId="MainMenu" type="class"/>
     </dataEntryOffsetMappings>
     <functions>
         <functionEntry accessMode="public" endPc="268435478" name="&lt;init&gt;" parent="MacacoJumpSquadApp" startPc="268435460">
@@ -314,6 +319,9 @@
         <functionEntry accessMode="public" endPc="268436647" name="onSelect" parent="MacacoJumpSquadDelegate" startPc="268436507">
             <documentation/>
         </functionEntry>
+        <functionEntry accessMode="public" endPc="268436705" name="resumeActivity" parent="MacacoJumpSquadDelegate" startPc="268436648">
+            <documentation/>
+        </functionEntry>
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
             <documentation/>
         </functionEntry>
@@ -332,18 +340,18 @@
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437206" name="KitesurfLayout" parent="Layouts" startPc="268436648">
+        <functionEntry accessMode="public" endPc="268437264" name="KitesurfLayout" parent="Layouts" startPc="268436706">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437777" name="MainLayout" parent="Layouts" startPc="268437207">
+        <functionEntry accessMode="public" endPc="268437835" name="MainLayout" parent="Layouts" startPc="268437265">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437796" name="&lt;init&gt;" parent="MainMenu" startPc="268437778">
+        <functionEntry accessMode="public" endPc="268437854" name="&lt;init&gt;" parent="MainMenu" startPc="268437836">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437985" name="initialize" parent="MainMenu" startPc="268437797">
+        <functionEntry accessMode="public" endPc="268438043" name="initialize" parent="MainMenu" startPc="268437855">
             <documentation/>
         </functionEntry>
     </functions>

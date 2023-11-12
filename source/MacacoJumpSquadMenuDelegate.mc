@@ -13,7 +13,7 @@ class MacacoJumpSquadMenuDelegate extends WatchUi.MenuInputDelegate {
         switch (item) {
             case :resume:
                     System.println("Resuming activity...");
-                    parentDelegate.startActivity();
+                    parentDelegate.resumeActivity();
                 break;
             case :save:
                     System.println("Saving activity...");

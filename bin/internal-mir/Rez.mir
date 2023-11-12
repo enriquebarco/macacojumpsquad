@@ -49,7 +49,7 @@ module Rez {
 _home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_bin_gen_006_B3906_00_source_Rez_mcgen_22_74_start:
 [ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/bin/gen/006-B3906-00/source/Rez.mcgen" 23 12 ]
             [ "_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_bin_gen_006_B3906_00_source_Rez_mcgen_22_74_start" "_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_bin_gen_006_B3906_00_source_Rez_mcgen_22_74_stop" ]
-            %rez_cmp_local_text_9723165521.1 = local;
+            %rez_cmp_local_text_1749914913.1 = local;
             %tmp.3 = getm $.Toybox.WatchUi;
             %tmp.4 = getv function ? %tmp.3 :Text;
             %tmp.5 = newd 6;
@@ -86,10 +86,10 @@ _home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_bin_gen_006_B3906_00_sour
             %tmp.42 = dup %tmp.37;
             %tmp.43 = aputv %tmp.42 %tmp.39 %tmp.41;
             %tmp.1 = newc %tmp.4 (%tmp.43);
-            lputv %rez_cmp_local_text_9723165521.1 %tmp.1;
+            lputv %rez_cmp_local_text_1749914913.1 %tmp.1;
 [ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/bin/gen/006-B3906-00/source/Rez.mcgen" 25 12 ]
             [ "_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_bin_gen_006_B3906_00_source_Rez_mcgen_22_74_start" "_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_bin_gen_006_B3906_00_source_Rez_mcgen_22_74_stop" ]
-            %rez_cmp_local_text_1868477520.2 = local;
+            %rez_cmp_local_text_1037233980.2 = local;
             %tmp.46 = getm $.Toybox.WatchUi;
             %tmp.47 = getv function ? %tmp.46 :Text;
             %tmp.48 = newd 6;
@@ -126,7 +126,7 @@ _home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_bin_gen_006_B3906_00_sour
             %tmp.85 = dup %tmp.80;
             %tmp.86 = aputv %tmp.85 %tmp.82 %tmp.84;
             %tmp.44 = newc %tmp.47 (%tmp.86);
-            lputv %rez_cmp_local_text_1868477520.2 %tmp.44;
+            lputv %rez_cmp_local_text_1037233980.2 %tmp.44;
 [ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/bin/gen/006-B3906-00/source/Rez.mcgen" 27 12 ]
             [ "_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_bin_gen_006_B3906_00_source_Rez_mcgen_22_74_start" "_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_bin_gen_006_B3906_00_source_Rez_mcgen_22_74_stop" ]
             %rez_cmp_local_bitmap_rightTop.3 = local;
@@ -196,10 +196,10 @@ _home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_bin_gen_006_B3906_00_sour
             invoke %tmp.144 %tmp.145(%tmp.151, %tmp.153);
 [ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/bin/gen/006-B3906-00/source/Rez.mcgen" 32 12 ]
             %tmp.154 = newa Array<WatchUi.Drawable> 4;
-            %tmp.156 = lgetv %rez_cmp_local_text_9723165521.1;
+            %tmp.156 = lgetv %rez_cmp_local_text_1749914913.1;
             %tmp.157 = dup %tmp.154;
             %tmp.158 = aputv %tmp.157 0 %tmp.156;
-            %tmp.160 = lgetv %rez_cmp_local_text_1868477520.2;
+            %tmp.160 = lgetv %rez_cmp_local_text_1037233980.2;
             %tmp.161 = dup %tmp.158;
             %tmp.162 = aputv %tmp.161 1 %tmp.160;
             %tmp.164 = lgetv %rez_cmp_local_bitmap_rightTop.3;

@@ -57,7 +57,7 @@ _home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadMen
         invoke %tmp.18 %tmp.19(%tmp.20);
 [ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadMenuDelegate.mc" 16 20 ]
         %tmp.22 = getv ? :parentDelegate;
-        %tmp.23 = getv function %tmp.22 :startActivity;
+        %tmp.23 = getv function %tmp.22 :resumeActivity;
         invoke %tmp.22 %tmp.23();
 [ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/MacacoJumpSquadMenuDelegate.mc" 17 16 ]
         goto @_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_MacacoJumpSquadMenuDelegate_mc_13_8_switchStmtEnd;

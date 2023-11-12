@@ -41,15 +41,31 @@ class MacacoJumpSquadDelegate extends WatchUi.BehaviorDelegate {
            });
            session.start();   
 
-        // Enable sensors to be recorded
-        // session.enableSensor(ActivityRecording.SENSOR_HEART_RATE);
-        // session.enableSensor(ActivityRecording.SENSOR_CALORIES);
+        // var options = {
+        //     :period => 1,               // 1 second sample time
+        //     :accelerometer => {
+        //         :enabled => true,       // Enable the accelerometer
+        //         :sampleRate => 25       // 25 samples
+        //     }
+        //     :heartBeatIntervals => {
+        //         :enabled => true
+        //     }
+        // };
+
+        // Sensor.registerSensorDataListener(method(:accelCallback), options);
 
         // Start recording the session
         session.start();
 
     //     var kitesurfView = new KitesurfView(); 
     //    WatchUi.pushView(kitesurfView, null, WatchUi.SLIDE_LEFT);
+    }
+
+    function resumeActivity() {
+        if (session) {
+            System.println("Session resuming");
+        session.start();
+        }
     }
 
 
