@@ -6,54 +6,67 @@ import Toybox.WatchUi;
 import Toybox.Lang;
 [ @file = "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc"; @line = 4; ]
 import Toybox.Time;
+[ @file = "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc"; @line = 5; ]
+import Toybox.Timer;
 [ @file = "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc"; @line = 6; ]
+import Toybox.ActivityMonitor;
+[ @file = "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc"; @line = 8; ]
 class KitesurfView extends WatchUi.View{
-    [ @file = "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc"; @line = 6; ]
+    [ @file = "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc"; @line = 8; ]
     <init> {
     }
-    [ @file = "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc"; @line = 6; ]
+    [ @file = "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc"; @line = 8; ]
     static
     <init> {
     }
-    [ @file = "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc"; @line = 8; @position = 16; ]
-    private
-    var _heartRateElement;
-    [ @file = "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc"; @line = 9; @position = 16; ]
-    private
-    var _distanceElement;
     [ @file = "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc"; @line = 10; @position = 16; ]
     private
-    var _jumpElement;
+    var _heartRateElement;
     [ @file = "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc"; @line = 11; @position = 16; ]
     private
-    var _timeElement;
+    var _distanceElement;
+    [ @file = "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc"; @line = 12; @position = 16; ]
+    private
+    var _jumpElement;
     [ @file = "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc"; @line = 13; @position = 16; ]
     private
-    var _timer;
-    [ @file = "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc"; @line = 16; ]
+    var _timeElement;
+    [ @file = "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc"; @line = 15; @position = 15; ]
+    private
+    var _timer as Timer.Timer;
+    [ @file = "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc"; @line = 18; ]
     function initialize() as Void {
-_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_KitesurfView_mc_16_26_start:
-[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc" 17 8 ]
+_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_KitesurfView_mc_18_26_start:
+[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc" 19 8 ]
         %tmp.2 = getv ? :View;
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc" 18 8 ]
-        %tmp.7 = getv ? :Sys;
-        %tmp.8 = getv function ? %tmp.7 :Timer;
-        %tmp.4 = newc %tmp.8 ();
+[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc" 20 8 ]
+        %tmp.6 = getm $.Toybox.Timer;
+        %tmp.7 = getv function ? %tmp.6 :Timer;
+        %tmp.4 = newc %tmp.7 ();
         putv self :_timer %tmp.4;
-[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc" 19 8 ]
-        %tmp.10 = getv ? :_timer;
-        %tmp.11 = getv function %tmp.10 :start;
-        %tmp.12 = 60000;
-        %tmp.13 = true;
-        invoke %tmp.10 %tmp.11(%tmp.12, %tmp.13);
-_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_KitesurfView_mc_16_26_stop:
+_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_KitesurfView_mc_18_26_stop:
     }
     [ @file = "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc"; @line = 23; ]
-    function onLayout(dc as Dc) as Void {
-_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_KitesurfView_mc_23_40_start:
+    function onShow() as Void {
+_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_KitesurfView_mc_23_30_start:
 [ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc" 24 8 ]
+        %tmp.2 = getv ? :_timer;
+        %tmp.3 = getv function %tmp.2 :start;
+        %tmp.4 = self;
+        %tmp.5 = getv function %tmp.4 :method;
+        %tmp.7 = const :onTimer;
+        %tmp.8 = invoke %tmp.4 %tmp.5(%tmp.7);
+        %tmp.9 = 1000;
+        %tmp.10 = true;
+        invoke %tmp.2 %tmp.3(%tmp.8, %tmp.9, %tmp.10);
+_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_KitesurfView_mc_23_30_stop:
+    }
+    [ @file = "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc"; @line = 28; ]
+    function onLayout(dc as Dc) as Void {
+_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_KitesurfView_mc_28_40_start:
+[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc" 29 8 ]
         %tmp.1 = self;
         %tmp.2 = getv function %tmp.1 :setLayout;
         %tmp.4 = getv ? :Rez;
@@ -62,98 +75,132 @@ _home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_KitesurfView_mc_23
         %tmp.8 = lgetv %dc;
         %tmp.9 = invoke %tmp.5 %tmp.6(%tmp.8);
         invoke %tmp.1 %tmp.2(%tmp.9);
-[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc" 25 8 ]
+[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc" 30 8 ]
         %tmp.10 = self;
         %tmp.11 = getv function %tmp.10 :findDrawableById;
         %tmp.12 = "heart_rate";
         %tmp.13 = invoke %tmp.10 %tmp.11(%tmp.12);
         putv self :_heartRateElement %tmp.13;
-[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc" 26 8 ]
+[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc" 31 8 ]
         %tmp.14 = self;
         %tmp.15 = getv function %tmp.14 :findDrawableById;
         %tmp.16 = "distance";
         %tmp.17 = invoke %tmp.14 %tmp.15(%tmp.16);
         putv self :_distanceElement %tmp.17;
-[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc" 27 8 ]
+[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc" 32 8 ]
         %tmp.18 = self;
         %tmp.19 = getv function %tmp.18 :findDrawableById;
         %tmp.20 = "highest_jump";
         %tmp.21 = invoke %tmp.18 %tmp.19(%tmp.20);
         putv self :_jumpElement %tmp.21;
-[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc" 28 8 ]
+[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc" 33 8 ]
         %tmp.22 = self;
         %tmp.23 = getv function %tmp.22 :findDrawableById;
         %tmp.24 = "time";
         %tmp.25 = invoke %tmp.22 %tmp.23(%tmp.24);
         putv self :_timeElement %tmp.25;
-[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc" 30 4 ]
+[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc" 35 4 ]
         %tmp.26 = self;
         %tmp.27 = getv function %tmp.26 :updateDistanceValue;
         %tmp.28 = 20;
         invoke %tmp.26 %tmp.27(%tmp.28);
-_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_KitesurfView_mc_23_40_stop:
+_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_KitesurfView_mc_28_40_stop:
     }
-    [ @file = "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc"; @line = 35; ]
+    [ @file = "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc"; @line = 40; ]
     function onUpdate(dc as Dc) as Void {
-_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_KitesurfView_mc_35_40_start:
-[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc" 37 8 ]
-        %tmp.2 = getv ? :View;
-        %tmp.3 = getv function %tmp.2 :onUpdate;
-        %tmp.5 = lgetv %dc;
-        invoke %tmp.2 %tmp.3(%tmp.5);
-[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc" 40 8 ]
-        [ "_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_KitesurfView_mc_35_40_start" "_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_KitesurfView_mc_35_40_stop" ]
-        %currentTime.1 = local;
-        %tmp.7 = getv ? :System;
-        %tmp.8 = getv function %tmp.7 :getClockTime;
-        %tmp.9 = invoke %tmp.7 %tmp.8();
-        lputv %currentTime.1 %tmp.9;
-[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc" 43 8 ]
-        [ "_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_KitesurfView_mc_35_40_start" "_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_KitesurfView_mc_35_40_stop" ]
-        %time.2 = local;
-        %tmp.10 = lgetv %currentTime.1;
-        %tmp.11 = getv %tmp.10 :hour;
-        %tmp.12 = getv function %tmp.11 :format;
-        %tmp.13 = "%d";
-        %tmp.14 = invoke %tmp.11 %tmp.12(%tmp.13);
-        %tmp.15 = ":";
-        %tmp.16 = add %tmp.14 %tmp.15;
-        %tmp.17 = lgetv %currentTime.1;
-        %tmp.18 = getv %tmp.17 :min;
-        %tmp.19 = getv function %tmp.18 :format;
-        %tmp.20 = "%02d";
-        %tmp.21 = invoke %tmp.18 %tmp.19(%tmp.20);
-        %tmp.22 = add %tmp.16 %tmp.21;
-        lputv %time.2 %tmp.22;
+_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_KitesurfView_mc_40_40_start:
+[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc" 42 8 ]
+        [ "_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_KitesurfView_mc_40_40_start" "_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_KitesurfView_mc_40_40_stop" ]
+        %info.1 = local;
+        %tmp.1 = getm $.Toybox.ActivityMonitor;
+        %tmp.2 = getv function %tmp.1 :getInfo;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %info.1 %tmp.3;
 [ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc" 44 8 ]
-        %tmp.24 = getv ? :_timeElement;
-        %tmp.25 = getv function %tmp.24 :setText;
-        %tmp.27 = lgetv %time.2;
-        invoke %tmp.24 %tmp.25(%tmp.27);
+        [ "_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_KitesurfView_mc_40_40_start" "_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_KitesurfView_mc_40_40_stop" ]
+        %distance.2 = local;
+        %tmp.4 = lgetv %info.1;
+        %tmp.5 = getv %tmp.4 :distance;
+        lputv %distance.2 %tmp.5;
+[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc" 45 8 ]
+        %tmp.7 = getv ? :System;
+        %tmp.8 = getv function %tmp.7 :println;
+        %tmp.10 = lgetv %distance.2;
+        invoke %tmp.7 %tmp.8(%tmp.10);
 [ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc" 46 8 ]
-        %tmp.28 = getm $.Toybox.WatchUi;
-        %tmp.29 = getv function %tmp.28 :requestUpdate;
-        invoke %tmp.28 %tmp.29();
-_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_KitesurfView_mc_35_40_stop:
+        %tmp.11 = self;
+        %tmp.12 = getv function %tmp.11 :updateDistanceValue;
+        %tmp.14 = lgetv %distance.2;
+        invoke %tmp.11 %tmp.12(%tmp.14);
+[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc" 47 8 ]
+        %tmp.16 = getv ? :View;
+        %tmp.17 = getv function %tmp.16 :onUpdate;
+        %tmp.19 = lgetv %dc;
+        invoke %tmp.16 %tmp.17(%tmp.19);
+_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_KitesurfView_mc_40_40_stop:
     }
-    [ @file = "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc"; @line = 52; ]
+    [ @file = "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc"; @line = 53; ]
     function onHide() as Void {
+_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_KitesurfView_mc_53_30_start:
+[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc" 54 8 ]
+        %tmp.2 = getv ? :_timer;
+        %tmp.3 = getv function %tmp.2 :stop;
+        invoke %tmp.2 %tmp.3();
+_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_KitesurfView_mc_53_30_stop:
     }
-    [ @file = "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc"; @line = 55; ]
+    [ @file = "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc"; @line = 57; ]
+    function onTimer() as Void {
+_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_KitesurfView_mc_57_31_start:
+[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc" 60 8 ]
+        [ "_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_KitesurfView_mc_57_31_start" "_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_KitesurfView_mc_57_31_stop" ]
+        %currentTime.1 = local;
+        %tmp.2 = getv ? :System;
+        %tmp.3 = getv function %tmp.2 :getClockTime;
+        %tmp.4 = invoke %tmp.2 %tmp.3();
+        lputv %currentTime.1 %tmp.4;
+[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc" 63 8 ]
+        [ "_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_KitesurfView_mc_57_31_start" "_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_KitesurfView_mc_57_31_stop" ]
+        %time.2 = local;
+        %tmp.5 = lgetv %currentTime.1;
+        %tmp.6 = getv %tmp.5 :hour;
+        %tmp.7 = getv function %tmp.6 :format;
+        %tmp.8 = "%d";
+        %tmp.9 = invoke %tmp.6 %tmp.7(%tmp.8);
+        %tmp.10 = ":";
+        %tmp.11 = add %tmp.9 %tmp.10;
+        %tmp.12 = lgetv %currentTime.1;
+        %tmp.13 = getv %tmp.12 :min;
+        %tmp.14 = getv function %tmp.13 :format;
+        %tmp.15 = "%02d";
+        %tmp.16 = invoke %tmp.13 %tmp.14(%tmp.15);
+        %tmp.17 = add %tmp.11 %tmp.16;
+        lputv %time.2 %tmp.17;
+[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc" 64 8 ]
+        %tmp.19 = getv ? :_timeElement;
+        %tmp.20 = getv function %tmp.19 :setText;
+        %tmp.22 = lgetv %time.2;
+        invoke %tmp.19 %tmp.20(%tmp.22);
+[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc" 65 8 ]
+        %tmp.23 = getm $.Toybox.WatchUi;
+        %tmp.24 = getv function %tmp.23 :requestUpdate;
+        invoke %tmp.23 %tmp.24();
+_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_KitesurfView_mc_57_31_stop:
+    }
+    [ @file = "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc"; @line = 68; ]
     function updateDistanceValue(distance as Number) as Void {
-_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_KitesurfView_mc_55_61_start:
-[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc" 56 8 ]
+_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_KitesurfView_mc_68_61_start:
+[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc" 69 8 ]
         %tmp.2 = getv ? :_distanceElement;
         %tmp.3 = getv function %tmp.2 :setText;
         %tmp.4 = lgetv %distance;
         %tmp.5 = getv function %tmp.4 :toString;
         %tmp.6 = invoke %tmp.4 %tmp.5();
         invoke %tmp.2 %tmp.3(%tmp.6);
-[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc" 57 8 ]
+[ "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc" 70 8 ]
         %tmp.7 = getm $.Toybox.WatchUi;
         %tmp.8 = getv function %tmp.7 :requestUpdate;
         invoke %tmp.7 %tmp.8();
-_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_KitesurfView_mc_55_61_stop:
+_home_enriquebarco_Desktop_repo_macaco_MacacoJumpSquad_source_KitesurfView_mc_68_61_stop:
     }
 }
 [ @file = "/home/enriquebarco/Desktop/repo/macaco/MacacoJumpSquad/source/KitesurfView.mc"; @line = 1; ]
